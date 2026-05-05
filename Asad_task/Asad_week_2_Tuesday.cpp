@@ -36,4 +36,5 @@ int main()
 	{
 		cout<<name<<" is not Palindrome:";
 	}
+	return 0;
 }
