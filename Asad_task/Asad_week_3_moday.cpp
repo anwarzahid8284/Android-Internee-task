@@ -17,6 +17,7 @@ class student
 	~student() //Ye tab chalta hai jab object destroy huta hai yani program k ebd pr
 	{
 		//"I am destructer: 
+		cout<<"I am constructer";
 		
 	}
 
@@ -33,8 +34,5 @@ int main()
 	student obj_1("Muhammad Asad",22,55);
 	obj_1.display();
 	
-	//dusra obj for student 2
-	cout<<endl<<endl<<"dusra obj for student 2"<<endl<<endl;
-	student obj_2("sajid",30,2);
-	obj_2.display();
+	return 0;
 }
