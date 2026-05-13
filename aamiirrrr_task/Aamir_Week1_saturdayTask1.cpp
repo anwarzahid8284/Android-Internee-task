@@ -1,10 +1,9 @@
 #include<iostream>
 using namespace std;
 int main(){
-    int arr[5] = {3,6,9,15,25};
-        int max = arr[0];
-    int min = arr[0];  
-
+    int arr[5] = {13,40,5,40,25};
+    int max = arr[0];
+       int min = arr[0];
     for(int i = 1; i < 5; i++){
         if(arr[i] > max){
             max = arr[i];
@@ -13,12 +12,11 @@ int main(){
             min = arr[i];
         }
     }
-    cout << "Maxi = " << max << endl;
-         cout << "Mini= " << min << endl;
+    cout << "Maxi= " << max << endl;
+         cout << "Mini = " << min << endl;
     cout << "Reverse Array: ";
-      for(int i = 4; i >= 0; i--){
+       for(int i = 4; i >= 0; i--){
         cout << arr[i] << " ";
     }
-
     return 0;
 }
