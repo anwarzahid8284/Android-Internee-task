@@ -31,7 +31,7 @@ int main(){
 		cin>>aj[j];
 	}
 	
-	int s=limit_2+limit_2;
+	int s=limit_1+limit_2;
 	
 	
 	
