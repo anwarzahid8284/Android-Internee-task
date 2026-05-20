@@ -53,7 +53,7 @@ int main(){
 	}
 	
 	cout<<"\nMerged Array is "<<endl;
-	for(int i=0;i<s;i++){
+	for(int i=s;i>=0;i--){
 		cout<<ak[i]<<" ";
 	}
 
