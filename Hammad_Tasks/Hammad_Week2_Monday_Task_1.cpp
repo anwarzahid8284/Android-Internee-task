@@ -31,7 +31,7 @@ int main(){
 		cin>>aj[j];
 	}
 	
-	int s=limit_2+limit_2;
+	int s=limit_1+limit_2;
 	
 	
 	
@@ -53,7 +53,7 @@ int main(){
 	}
 	
 	cout<<"\nMerged Array is "<<endl;
-	for(int i=0;i<s;i++){
+	for(int i=s;i>=0;i--){
 		cout<<ak[i]<<" ";
 	}
 
