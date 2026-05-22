@@ -17,8 +17,7 @@ class car
 	  void start_car()
 	  {
 	  	cout<<"Car start ho rahi hai: "<<endl;
-	  	
-	  	//en_obj.start_engine();	
+	  		
 	  }
 	  	
 };
@@ -29,7 +28,7 @@ int main()
 	
 	car_obj.start_car();
 	
-	car_obj.en_obj.start_engine();
+	car_obj.en_obj.start_engine(); //Yahn engine class ka function call kia through has realation without inheritence
 	
 	return 0;
 }
