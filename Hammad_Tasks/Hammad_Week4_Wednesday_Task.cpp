@@ -1,4 +1,4 @@
-#include<iostream>
+#include<iostream>   // Liskove Substitution principle
 using namespace std;
 class person{
 	public:
