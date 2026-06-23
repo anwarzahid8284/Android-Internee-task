@@ -1,0 +1,14 @@
+CREATE TABLE dmc(
+
+id INT PRIMARY KEY ,
+name VARCHAR(50),
+marks INT );
+
+INSERT INTO dmc VALUES(101,'Ali',450);
+INSERT INTO dmc VALUES(102,'Ahmad',410); 
+INSERT INTO dmc VALUES(103,'Arshad',430); 
+INSERT INTO dmc VALUES(104,'Roheel',460); 
+INSERT INTO dmc VALUES(105,'Akmal',470); 
+
+SELECT id , name , marks  FROM dmc
+WHERE marks>430;
