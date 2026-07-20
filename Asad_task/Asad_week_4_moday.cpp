@@ -1,4 +1,4 @@
-#include<iostream>
+ #include<iostream>
 using namespace std;
 //SRP Voilation Example
 class car
@@ -40,7 +40,7 @@ int main()
 	obj.save_data();
 	obj.print_data();
 	
-	
+	 
 	cout<<endl<<"Refector Example: "<<endl;
 	save_data  save_obj;
 	save_obj.save_();
