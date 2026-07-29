@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">AboutMe</string>
+    <string name="Name">Kotlin Introduction</string>
+    <string name="todo">TODO</string>
+    <string name="stat">TODO</string>
+    <string name="name">Kotlin is a modern, statically typed, cross-platform programming language developed by
+        JetBrains (the creators of IntelliJ IDEA and Android Studio) and first released in 2011. It was officially
+        launched as an open-source project in 2012, designed to address common pain points found in traditional
+        Java development—such as verbose syntax, boilerplate code, and frequent null pointer exceptions—while
+        maintaining full compatibility with existing Java frameworks and libraries.
+
+In 2017, Google announced Kotlin as an officially supported language for Android app development,
+        and by 2019, Google made Kotlin the preferred language for Android developers.</string>
+    <string name="Hint_text">What is your nick Name?</string>
+    <string name="Button">Done</string>
+</resources>

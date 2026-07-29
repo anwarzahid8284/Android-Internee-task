@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:textAlignment="center"
+    tools:context=".MainActivity"
+    tools:ignore="UseCompoundDrawables"
+    android:paddingEnd="@dimen/padding"
+    android:paddingBottom="@dimen/padding"
+    android:paddingStart="@dimen/padding">
+
+    <TextView
+        android:id="@+id/textView"
+        style="@style/styles"
+        android:layout_width="match_parent"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="20dp"
+        android:paddingBottom="0dp"
+        android:text="@string/Name"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/edit_text_ID"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:ems="10"
+        android:hint="@string/Hint_text"
+        android:inputType="text" />
+
+    <Button
+        android:id="@+id/buttonID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="5dp"
+        style="@style/TextAppearance.AppCompat.Widget.Button.Colored"
+        android:text="@string/Button" />
+
+    <TextView
+        android:id="@+id/hide_text_ID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        tools:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="match_parent"
+        android:layout_height="89dp"
+        android:contentDescription="@string/stat"
+        app:srcCompat="@android:drawable/btn_star_big_on"
+        tools:ignore="ImageContrastCheck" />
+
+    <ScrollView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:ignore="SpeakableTextPresentCheck">
+
+        <TextView
+            android:id="@+id/textID"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingStart="@dimen/padding"
+            android:paddingEnd="16dp"
+            style="@style/namestyles"
+            android:text="@string/name" />
+    </ScrollView>
+
+</LinearLayout>
