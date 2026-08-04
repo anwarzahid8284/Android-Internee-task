@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Normal App Theme -->
+    <style name="Theme.FoodApp" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Aapki app ki normal styling -->
+    </style>
+
+    <!-- Splash Screen Theme -->
+    <style name="Theme.App.Starting" parent="Theme.SplashScreen">
+        <!-- Background color -->
+        <item name="windowSplashScreenBackground">@color/white</item>
+
+        <!-- Logo (Splash Image) -->
+        <item name="windowSplashScreenAnimatedIcon">@drawable/spoonremovebg</item>
+
+        <!-- App ka actual theme jab splash screen khatam ho jaye -->
+        <item name="postSplashScreenTheme">@style/Theme.FoodApp</item>
+    </style>
+</resources>
